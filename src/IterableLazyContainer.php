@@ -5,6 +5,9 @@ namespace AlanVdb\Dependency;
 use Iterator;
 use AlanVdb\Dependency\Throwable\IdNotFoundException;
 use AlanVdb\Dependency\Throwable\InvalidContainerParamException;
+use function \array_merge;
+use function \array_keys;
+use function \array_key_exists;
 
 /**
  * IterableLazyContainer class extending LazyContainer and implementing the Iterator interface.
