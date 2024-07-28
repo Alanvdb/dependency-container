@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="F:\Coding\PHP\Alanvdb\dependency-container\phpunit.xml" tests="14" assertions="24" errors="0" failures="0" skipped="0" time="0.616269">
+    <testsuite name="Application Test Suite" tests="14" assertions="24" errors="0" failures="0" skipped="0" time="0.616269">
+      <testsuite name="AlanVdb\Tests\Dependency\ContainerFactoryTest" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php" tests="2" assertions="5" errors="0" failures="0" skipped="0" time="0.346728">
+        <testcase name="testCreateLazyContainer" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php" line="14" class="AlanVdb\Tests\Dependency\ContainerFactoryTest" classname="AlanVdb.Tests.Dependency.ContainerFactoryTest" assertions="2" time="0.335863"/>
+        <testcase name="testCreateIterableLazyContainer" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php" line="23" class="AlanVdb\Tests\Dependency\ContainerFactoryTest" classname="AlanVdb.Tests.Dependency.ContainerFactoryTest" assertions="3" time="0.010866"/>
+      </testsuite>
+      <testsuite name="AlanVdb\Tests\Dependency\IterableLazyContainerTest" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" tests="7" assertions="10" errors="0" failures="0" skipped="0" time="0.083612">
+        <testcase name="testSetAndGet" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" line="12" class="AlanVdb\Tests\Dependency\IterableLazyContainerTest" classname="AlanVdb.Tests.Dependency.IterableLazyContainerTest" assertions="2" time="0.017514"/>
+        <testcase name="testSetDuplicateServiceThrowsException" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" line="23" class="AlanVdb\Tests\Dependency\IterableLazyContainerTest" classname="AlanVdb.Tests.Dependency.IterableLazyContainerTest" assertions="1" time="0.017515"/>
+        <testcase name="testGetNonExistentServiceThrowsException" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" line="37" class="AlanVdb\Tests\Dependency\IterableLazyContainerTest" classname="AlanVdb.Tests.Dependency.IterableLazyContainerTest" assertions="1" time="0.011683"/>
+        <testcase name="testServiceIsSingleton" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" line="45" class="AlanVdb\Tests\Dependency\IterableLazyContainerTest" classname="AlanVdb.Tests.Dependency.IterableLazyContainerTest" assertions="1" time="0.012058"/>
+        <testcase name="testIteration" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" line="58" class="AlanVdb\Tests\Dependency\IterableLazyContainerTest" classname="AlanVdb.Tests.Dependency.IterableLazyContainerTest" assertions="1" time="0.006702"/>
+        <testcase name="testRewind" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" line="81" class="AlanVdb\Tests\Dependency\IterableLazyContainerTest" classname="AlanVdb.Tests.Dependency.IterableLazyContainerTest" assertions="2" time="0.010957"/>
+        <testcase name="testValid" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php" line="100" class="AlanVdb\Tests\Dependency\IterableLazyContainerTest" classname="AlanVdb.Tests.Dependency.IterableLazyContainerTest" assertions="2" time="0.007184"/>
+      </testsuite>
+      <testsuite name="AlanVdb\Tests\Dependency\LazyContainerTest" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php" tests="5" assertions="9" errors="0" failures="0" skipped="0" time="0.185928">
+        <testcase name="testSetAndGet" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php" line="12" class="AlanVdb\Tests\Dependency\LazyContainerTest" classname="AlanVdb.Tests.Dependency.LazyContainerTest" assertions="2" time="0.023011"/>
+        <testcase name="testSetDuplicateServiceThrowsException" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php" line="23" class="AlanVdb\Tests\Dependency\LazyContainerTest" classname="AlanVdb.Tests.Dependency.LazyContainerTest" assertions="2" time="0.108153"/>
+        <testcase name="testSetWithEmptyIdThrowsException" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php" line="38" class="AlanVdb\Tests\Dependency\LazyContainerTest" classname="AlanVdb.Tests.Dependency.LazyContainerTest" assertions="2" time="0.010429"/>
+        <testcase name="testGetNonExistentServiceThrowsException" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php" line="49" class="AlanVdb\Tests\Dependency\LazyContainerTest" classname="AlanVdb.Tests.Dependency.LazyContainerTest" assertions="2" time="0.024315"/>
+        <testcase name="testServiceIsSingleton" file="F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php" line="58" class="AlanVdb\Tests\Dependency\LazyContainerTest" classname="AlanVdb.Tests.Dependency.LazyContainerTest" assertions="1" time="0.020020"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

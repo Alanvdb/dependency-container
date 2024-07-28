@@ -1,0 +1,22 @@
+{
+    "name": "alanvdb/dependency-container",
+    "description": "A PHP Dependency Injection System",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Dependency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0"
+    }
+}
