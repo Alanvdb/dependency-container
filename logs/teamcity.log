@@ -1,78 +1,78 @@
 
-##teamcity[testCount count='14' flowId='7292']
+##teamcity[testCount count='14' flowId='8864']
 
-##teamcity[testSuiteStarted name='F:\Coding\PHP\Alanvdb\dependency-container\phpunit.xml' flowId='7292']
+##teamcity[testSuiteStarted name='F:\Coding\PHP\Alanvdb\dependency-container\phpunit.xml' flowId='8864']
 
-##teamcity[testSuiteStarted name='Application Test Suite' flowId='7292']
+##teamcity[testSuiteStarted name='Application Test Suite' flowId='8864']
 
-##teamcity[testSuiteStarted name='AlanVdb\Tests\Dependency\ContainerFactoryTest' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php::\AlanVdb\Tests\Dependency\ContainerFactoryTest' flowId='7292']
+##teamcity[testSuiteStarted name='AlanVdb\Tests\Dependency\ContainerFactoryTest' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php::\AlanVdb\Tests\Dependency\ContainerFactoryTest' flowId='8864']
 
-##teamcity[testStarted name='testCreateLazyContainer' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php::\AlanVdb\Tests\Dependency\ContainerFactoryTest::testCreateLazyContainer' flowId='7292']
+##teamcity[testStarted name='testCreateLazyContainer' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php::\AlanVdb\Tests\Dependency\ContainerFactoryTest::testCreateLazyContainer' flowId='8864']
 
-##teamcity[testFinished name='testCreateLazyContainer' duration='334' flowId='7292']
+##teamcity[testFinished name='testCreateLazyContainer' duration='372' flowId='8864']
 
-##teamcity[testStarted name='testCreateIterableLazyContainer' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php::\AlanVdb\Tests\Dependency\ContainerFactoryTest::testCreateIterableLazyContainer' flowId='7292']
+##teamcity[testStarted name='testCreateIterableLazyContainer' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\ContainerFactoryTest.php::\AlanVdb\Tests\Dependency\ContainerFactoryTest::testCreateIterableLazyContainer' flowId='8864']
 
-##teamcity[testFinished name='testCreateIterableLazyContainer' duration='9' flowId='7292']
+##teamcity[testFinished name='testCreateIterableLazyContainer' duration='71' flowId='8864']
 
-##teamcity[testSuiteFinished name='AlanVdb\Tests\Dependency\ContainerFactoryTest' flowId='7292']
+##teamcity[testSuiteFinished name='AlanVdb\Tests\Dependency\ContainerFactoryTest' flowId='8864']
 
-##teamcity[testSuiteStarted name='AlanVdb\Tests\Dependency\IterableLazyContainerTest' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest' flowId='7292']
+##teamcity[testSuiteStarted name='AlanVdb\Tests\Dependency\IterableLazyContainerTest' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest' flowId='8864']
 
-##teamcity[testStarted name='testSetAndGet' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testSetAndGet' flowId='7292']
+##teamcity[testStarted name='testSetAndGet' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testSetAndGet' flowId='8864']
 
-##teamcity[testFinished name='testSetAndGet' duration='15' flowId='7292']
+##teamcity[testFinished name='testSetAndGet' duration='18' flowId='8864']
 
-##teamcity[testStarted name='testSetDuplicateServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testSetDuplicateServiceThrowsException' flowId='7292']
+##teamcity[testStarted name='testSetDuplicateServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testSetDuplicateServiceThrowsException' flowId='8864']
 
-##teamcity[testFinished name='testSetDuplicateServiceThrowsException' duration='16' flowId='7292']
+##teamcity[testFinished name='testSetDuplicateServiceThrowsException' duration='19' flowId='8864']
 
-##teamcity[testStarted name='testGetNonExistentServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testGetNonExistentServiceThrowsException' flowId='7292']
+##teamcity[testStarted name='testGetNonExistentServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testGetNonExistentServiceThrowsException' flowId='8864']
 
-##teamcity[testFinished name='testGetNonExistentServiceThrowsException' duration='9' flowId='7292']
+##teamcity[testFinished name='testGetNonExistentServiceThrowsException' duration='26' flowId='8864']
 
-##teamcity[testStarted name='testServiceIsSingleton' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testServiceIsSingleton' flowId='7292']
+##teamcity[testStarted name='testServiceIsSingleton' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testServiceIsSingleton' flowId='8864']
 
-##teamcity[testFinished name='testServiceIsSingleton' duration='10' flowId='7292']
+##teamcity[testFinished name='testServiceIsSingleton' duration='24' flowId='8864']
 
-##teamcity[testStarted name='testIteration' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testIteration' flowId='7292']
+##teamcity[testStarted name='testIteration' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testIteration' flowId='8864']
 
-##teamcity[testFinished name='testIteration' duration='5' flowId='7292']
+##teamcity[testFinished name='testIteration' duration='5' flowId='8864']
 
-##teamcity[testStarted name='testRewind' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testRewind' flowId='7292']
+##teamcity[testStarted name='testRewind' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testRewind' flowId='8864']
 
-##teamcity[testFinished name='testRewind' duration='9' flowId='7292']
+##teamcity[testFinished name='testRewind' duration='5' flowId='8864']
 
-##teamcity[testStarted name='testValid' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testValid' flowId='7292']
+##teamcity[testStarted name='testValid' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\IterableLazyContainerTest.php::\AlanVdb\Tests\Dependency\IterableLazyContainerTest::testValid' flowId='8864']
 
-##teamcity[testFinished name='testValid' duration='6' flowId='7292']
+##teamcity[testFinished name='testValid' duration='49' flowId='8864']
 
-##teamcity[testSuiteFinished name='AlanVdb\Tests\Dependency\IterableLazyContainerTest' flowId='7292']
+##teamcity[testSuiteFinished name='AlanVdb\Tests\Dependency\IterableLazyContainerTest' flowId='8864']
 
-##teamcity[testSuiteStarted name='AlanVdb\Tests\Dependency\LazyContainerTest' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest' flowId='7292']
+##teamcity[testSuiteStarted name='AlanVdb\Tests\Dependency\LazyContainerTest' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest' flowId='8864']
 
-##teamcity[testStarted name='testSetAndGet' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testSetAndGet' flowId='7292']
+##teamcity[testStarted name='testSetAndGet' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testSetAndGet' flowId='8864']
 
-##teamcity[testFinished name='testSetAndGet' duration='21' flowId='7292']
+##teamcity[testFinished name='testSetAndGet' duration='11' flowId='8864']
 
-##teamcity[testStarted name='testSetDuplicateServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testSetDuplicateServiceThrowsException' flowId='7292']
+##teamcity[testStarted name='testSetDuplicateServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testSetDuplicateServiceThrowsException' flowId='8864']
 
-##teamcity[testFinished name='testSetDuplicateServiceThrowsException' duration='106' flowId='7292']
+##teamcity[testFinished name='testSetDuplicateServiceThrowsException' duration='7' flowId='8864']
 
-##teamcity[testStarted name='testSetWithEmptyIdThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testSetWithEmptyIdThrowsException' flowId='7292']
+##teamcity[testStarted name='testSetWithEmptyIdThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testSetWithEmptyIdThrowsException' flowId='8864']
 
-##teamcity[testFinished name='testSetWithEmptyIdThrowsException' duration='9' flowId='7292']
+##teamcity[testFinished name='testSetWithEmptyIdThrowsException' duration='17' flowId='8864']
 
-##teamcity[testStarted name='testGetNonExistentServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testGetNonExistentServiceThrowsException' flowId='7292']
+##teamcity[testStarted name='testGetNonExistentServiceThrowsException' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testGetNonExistentServiceThrowsException' flowId='8864']
 
-##teamcity[testFinished name='testGetNonExistentServiceThrowsException' duration='22' flowId='7292']
+##teamcity[testFinished name='testGetNonExistentServiceThrowsException' duration='5' flowId='8864']
 
-##teamcity[testStarted name='testServiceIsSingleton' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testServiceIsSingleton' flowId='7292']
+##teamcity[testStarted name='testServiceIsSingleton' locationHint='php_qn://F:\Coding\PHP\Alanvdb\dependency-container\tests\unit\LazyContainerTest.php::\AlanVdb\Tests\Dependency\LazyContainerTest::testServiceIsSingleton' flowId='8864']
 
-##teamcity[testFinished name='testServiceIsSingleton' duration='18' flowId='7292']
+##teamcity[testFinished name='testServiceIsSingleton' duration='20' flowId='8864']
 
-##teamcity[testSuiteFinished name='AlanVdb\Tests\Dependency\LazyContainerTest' flowId='7292']
+##teamcity[testSuiteFinished name='AlanVdb\Tests\Dependency\LazyContainerTest' flowId='8864']
 
-##teamcity[testSuiteFinished name='Application Test Suite' flowId='7292']
+##teamcity[testSuiteFinished name='Application Test Suite' flowId='8864']
 
-##teamcity[testSuiteFinished name='F:\Coding\PHP\Alanvdb\dependency-container\phpunit.xml' flowId='7292']
+##teamcity[testSuiteFinished name='F:\Coding\PHP\Alanvdb\dependency-container\phpunit.xml' flowId='8864']

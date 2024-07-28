@@ -10,24 +10,25 @@ use function \array_key_exists;
 use function \empty;
 use function \unset;
 
+/**
+ * Class LazyContainer
+ *
+ * A container that lazily instantiates services when they are requested.
+ */
 class LazyContainer implements LazyContainerInterface
 {
     /**
-     * @param callable[] $generators
+     * @var callable[] $generators Array of service generators.
      */
     protected $generators = [];
 
     /**
-     * @param mixed[] $instances
+     * @var mixed[] $instances Array of instantiated services.
      */
     protected $instances = [];
 
     /**
-     * Adds a new generator to the generator container.
-     *
-     * @param string $id Generator ID.
-     * @param callable $generator callable returning a value
-     * @throws InvalidContainerParamException On invalid param provided.
+     * {@inheritdoc}
      */
     public function set(string $id, callable $generator)
     {
@@ -41,11 +42,11 @@ class LazyContainer implements LazyContainerInterface
     }
 
     /**
-     * Finds an entry of the container by its identifier and returns it.
+     * Retrieves a service by its ID.
      *
-     * @param string $id Identifier of the entry to look for.
-     * @return mixed Entry.
-     * @throws NotFoundExceptionInterface If no entry was found for the identifier.
+     * @param string $id The ID of the service.
+     * @return mixed The service instance.
+     * @throws NotFoundExceptionInterface If no service was found for the ID.
      */
     public function get(string $id)
     {
@@ -60,10 +61,10 @@ class LazyContainer implements LazyContainerInterface
     }
 
     /**
-     * Returns true if the container can return an entry for the given identifier.
+     * Checks if the container has a service for the given ID.
      *
-     * @param string $id Identifier of the entry to look for.
-     * @return bool
+     * @param string $id The ID of the service.
+     * @return bool True if the service exists, false otherwise.
      */
     public function has(string $id): bool
     {

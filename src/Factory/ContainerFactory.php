@@ -1,4 +1,4 @@
-<?php declare(strict_types = 1);
+<?php declare(strict_types=1);
 
 namespace AlanVdb\Dependency\Factory;
 
@@ -8,20 +8,25 @@ use AlanVdb\Dependency\LazyContainer;
 use AlanVdb\Dependency\IterableLazyContainer;
 use Iterator;
 
+/**
+ * Class ContainerFactory
+ *
+ * Implements the ContainerFactoryInterface to create different types of container instances.
+ */
 class ContainerFactory implements ContainerFactoryInterface
 {
     /**
-     * @return LazyContainerInterface
+     * {@inheritdoc}
      */
-    public function createLazyContainer() : LazyContainerInterface
+    public function createLazyContainer(): LazyContainerInterface
     {
         return new LazyContainer();
     }
 
     /**
-     * @return LazyContainerInterface&Iterator
+     * {@inheritdoc}
      */
-    public function createIterableLazyContainer() : LazyContainerInterface & Iterator
+    public function createIterableLazyContainer(): LazyContainerInterface & Iterator
     {
         return new IterableLazyContainer();
     }
